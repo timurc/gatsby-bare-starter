@@ -2,7 +2,7 @@
   "name": "gatsby-starter-default",
   "description": "Gatsby default starter",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Timur Celikel <me@timurcelikel.com>",
   "dependencies": {
     "front-matter": "^2.0.7",
     "gatsby": "^0.12.6",
@@ -31,7 +31,6 @@
   "main": "n/a",
   "scripts": {
     "build": "gatsby build",
-    "deploy": "gatsby build --prefix-links && gh-pages -d public",
     "start": "gatsby develop",
     "test": "echo \"Error: no test specified\" && exit 1"
   }

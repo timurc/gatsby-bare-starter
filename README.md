@@ -1,10 +1,3 @@
-# Clean Start
+# Gatsby Bare Starter
 ---
-#### The plain and simple starter.
-
-# Installation
----
-Install this starter (assuming Gatsby is installed) by running from your CLI: 
-```
-gatsby new clean gh:brianstone/gatsby-starter-clean
-```
+Starter with fewer dependencies you might not need.

@@ -11,9 +11,8 @@ module.exports = React.createClass({
   render () {
     return (
       <div>
-          <Link
-            to={prefixLink('/')}>
-            Your Brand!
+          <Link to={prefixLink('/')}>
+            Link home...
           </Link>
           {this.props.children}
       </div>
