@@ -2,14 +2,12 @@ import React from 'react'
 import Helmet from "react-helmet"
 import { config } from 'config'
 
-module.exports = React.createClass({
-  propTypes () {
-    return {
-      router: React.PropTypes.object,
-    }
-  },
-  render () {
-    const post = this.props.route.page.data
+const propTypes = {
+    router: React.PropTypes.object,
+}
+
+export default function MarkdownWrapper({ route }) {
+    const post = route.page.data
     return (
       <div>
         <Helmet
@@ -19,5 +17,6 @@ module.exports = React.createClass({
         <div dangerouslySetInnerHTML={{ __html: post.body }} />
       </div>
     )
-  },
-})
+}
+
+MarkdownWrapper.propTypes = propTypes;
